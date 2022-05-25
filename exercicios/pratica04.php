@@ -36,17 +36,17 @@ atual.
 
         if($operacao && $valor){
             if($operacao == 'DEPOSITAR'){
-                echo "OPERAÇÃO ".$operacao."<br>";
-                Echo "VALOR DEPOSITADO $".$valor."<br>";
+                echo "OPERAÇÃO ---".$operacao."<br>";
+                Echo "VALOR DEPOSITADO --- $".$valor."<br>";
     
                 $saldoAtualizado = $saldoInicio + $valor;
-                Echo "SALDO ATUALIZADO $".$saldoAtualizado."<br>";
+                Echo "SALDO ATUALIZADO --- $".$saldoAtualizado."<br>";
             }else if($operacao == 'SACAR'){
-                echo "OPERAÇÃO ".$operacao."<br>";
-                Echo "VALOR SACADO $".$valor."<br>";
+                echo "OPERAÇÃO --- ".$operacao."<br>";
+                Echo "VALOR SACADO --- $".$valor."<br>";
     
                 $saldoAtualizado = $saldoInicio - $valor;
-                Echo "SALDO ATUALIZADO $".$saldoAtualizado."<br>";
+                Echo "SALDO ATUALIZADO --- $".$saldoAtualizado."<br>";
             }
         }
     ?>
