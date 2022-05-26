@@ -1,0 +1,11 @@
+version: '3'
+services:
+    php: 
+        build: .
+        container_name: estudo_php
+        ports:
+            - "8680:80"
+        volumes:
+            - ./:/var/www/html
+        networks: 
+            - default
