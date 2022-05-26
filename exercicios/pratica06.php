@@ -15,8 +15,6 @@ número e apresente a Tabuada deste -->
 $valorRaio = filter_input(INPUT_POST,'valorRaio');
 $pi = 3.1416;
 
-
-
 if($valorRaio){
     if($valorRaio < 1){
         echo "Erro! Por favor informe um valor positivo";
@@ -27,7 +25,6 @@ if($valorRaio){
 
         echo "o valor da area é ".$calculoArea."<br><br>";
         echo "o valor da perimetro é ".$calculoPerimetro."<br>";
-
     }
 }
 
